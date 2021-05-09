@@ -1,0 +1,33 @@
+{
+    "name": "eleven59/laravel-validation-rules",
+    "description": ":Just another laravel package with some validation rules I use often",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nik Linders",
+            "email": "info@eleven59.nl",
+            "homepage": "https://eleven59.nl"
+        }
+    ],
+    "homepage": "https://github.com/eleven59/laravel-validation-rules",
+    "keywords": ["Laravel", "LaravelValidationRules"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eleven59\\LaravelValidationRules\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eleven59\\BackpackImageTraits\\AddonServiceProvider"
+            ]
+        }
+    }
+}
